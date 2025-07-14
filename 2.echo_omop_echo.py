@@ -75,7 +75,7 @@ print(f"🔹 Total terms processed: {total}")
 print(f"✅ Mapped terms:          {mapped_count}")
 print(f"❌ Unmapped terms:        {unmapped_count}")
 
-# (base) feng.jingna@R5436928 Athena % python echo_omop_echo.py
+# python echo_omop_echo.py
 # ✅ Mapping complete. Output saved to: echo_dic_mapped.csv
 # 📊 Mapping Summary:
 # 🔹 Total terms processed: 988
