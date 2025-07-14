@@ -158,12 +158,3 @@ print(f"  SNOMED fallback terms:  {len(unmatched_terms)}")
 print("📁 Files saved:")
 print("  ➜ echo_loinc_snomed_omop_validated.csv")
 print("  ➜ unmatched_terms.csv")
-
-# (base) feng.jingna@R5436928 Athena % python map_echo_fuzzy_loinc_omop.py
-# ✅ Mapping Complete with Domain Validation
-#   Total input terms:      1362
-#   LOINC matched:          335
-#   SNOMED fallback terms:  1027
-
-# (base) feng.jingna@R5436928 Athena % wc unmatched_terms.csv
-#      989    8953   86910 unmatched_terms.csv
